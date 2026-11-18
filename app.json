@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PizzaLab",
+    "slug": "pizzalab",
+    "scheme": "pizzalab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "hu.pizzalab.app"
+    },
+    "android": {
+      "package": "hu.pizzalab.app"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "A PizzaLab hozzáférést kér a fotóidhoz, hogy képeket adhass a sütési naplóhoz."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#D65A3A"
+        }
+      ]
+    ]
+  }
+}
